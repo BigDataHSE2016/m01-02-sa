@@ -273,7 +273,7 @@ technology
 ### 9.
 _Prepare a context diagram for New Century's information system._
 
-![Diag1 img][diag]
+![Diag1 img][diag1]
 
 <img src='http://g.gravizo.com/g?
 @startuml;
@@ -312,4 +312,4 @@ https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/goal_
 
 [swot-img]: https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/swot.png
 
-[diag1]
+[diag1]: https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/diag1.png
