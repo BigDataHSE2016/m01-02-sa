@@ -30,6 +30,7 @@ _Use the background information to create a business profile for New Century Wel
 **Competitors**: The clinic has competition from other health care providers, but no other clinic offers the same range of services.
 
 #### Organisation structure
+
 <img src='http://g.gravizo.com/g?
 @startuml;
 usecase found as "Founders:;
@@ -234,12 +235,26 @@ _What is the goals of change New Century Wellness Group through information syst
 ### 7.
 _With use BSC template  try to determine  KPI ( for goals, for business activities)  , try to construct strategy map._
 
-### 8.
+### 8. The Environment
 _Think about environment of New Century Wellness Group. List the external environment element._
 
 #### SWOT-analysys
 
 ![SWOT img][swot-img]
+
+#### External environment elements
+
+External environment elements lst:
+- individual customers and b2b customers (employers who provide provide insurance coverage for employee wellness and health maintenance)
+- insurance companies and suppliers that provide medical and office equipment
+- competitors
+- government policies and their local implementations
+- financial organizations – the banks, which gives money to business improvement
+- natural forces
+- social and cultural changes that influence on the lifestyle, public opinion and fashion  trends
+technology
+
+
 
 ### 9.
 _Prepare a context diagram for New Century's information system._
@@ -255,6 +270,7 @@ _Prepare a data dictionary entry and process description for one of the system's
 
 ----
 
-[goal-tree]: https://www.dropbox.com/s/esftt80zscogv6k/goal_tree.png?dl=0
+[goal-tree]:
+https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/goal_tree.png
 
-[swot-img]: https://www.dropbox.com/s/3amof92ebz12hzn/swot.png?dl=0
+[swot-img]: https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/swot.png
