@@ -227,6 +227,20 @@ _Describe  customers’ model of New Century. Find additional material about cus
 ### 5.
 _Based on what you know at this point, is it likely that you will recommend a transaction processing system, a business support system, or a user productivity system? What about an ERP system? Explain your reasons._
 
+As it was mentioned in case study, the main goal of the new IT system implementation is to support the current clinic’s operations and future growth. The actual processes in the clinic are based on the paper documents and some legacy systems.
+
+As we can see in the business processes table above, some processes require the same income data and some of them depend on the data produced by other processes. So reducing the paper flow can cause a significant speed-up in data flows and the rise of efficiency of the processes.
+
+We don’t think that implementing only one of suggested systems is enough for any business.
+So, we suggest a combination of
+- a user productivity system can help with staying on the schedule for all the employee and can help managing the communications with the customers;
+- a transaction processing system will help the monetary side of the company in managing the accounts receivable and insurance issues.
+
+
+If the amount of resources for IT transformation is limited we can suggest a step-by-step implementation in the following order:
+- transaction processing system
+- user productivity system
+
 ### 6. Goals
 _What is the goals of change New Century Wellness Group through information system development? Construct tree of goals._
 
@@ -259,6 +273,29 @@ technology
 ### 9.
 _Prepare a context diagram for New Century's information system._
 
+![Diag1 img][diag]
+
+<img src='http://g.gravizo.com/g?
+@startuml;
+node p as "Patient";
+node ic as "Insurance Company";
+node oe as "Offce Employee";
+node pr as "Provider";
+node gov as "Gevernment";
+component oms as "0\n---\nNew Century\nInformation System ";
+p -right-> oms : patients payments;
+p -right-> oms : patients inputs;
+oms -left-> p : patients reports\nand outputs;
+ic -down-> oms : insurance payments;
+oms -up-> ic : claims;
+oms -> oe : reports and outputs;
+pr -down-> oms : providers inputs;
+oms -up-> pr : reports and outputs;
+gov -up-> oms : orders and recommendations;
+oms -down-> gov : reports;
+@enduml
+'>
+
 ### 10.
 _Prepare a diagram 0 DFD for New Century. Be sure to show numbered processes for handling appointment processing, payment and insurance processing, report processing, and records maintenance. Also, prepare lower-level DFDs for each numbered process._
 
@@ -274,3 +311,5 @@ _Prepare a data dictionary entry and process description for one of the system's
 https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/goal_tree.png
 
 [swot-img]: https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/swot.png
+
+[diag1]
