@@ -234,12 +234,15 @@ As we can see in the business processes table above, some processes require the 
 We don’t think that implementing only one of suggested systems is enough for any business.
 So, we suggest a combination of
 - a user productivity system can help with staying on the schedule for all the employee and can help managing the communications with the customers;
-- a transaction processing system will help the monetary side of the company in managing the accounts receivable and insurance issues.
+- a transaction processing system will help the monetary side of the company in managing the accounts receivable and insurance issues;
+- a business support system as each part of the company needs access to some part of information in order to do their job. Doctors need information to help patients. Patient billing requires customer personal information as well as insurance information. The appointment manager needs information on the doctors' schedules.
 
-
-If the amount of resources for IT transformation is limited we can suggest a step-by-step implementation in the following order:
+If the amount of resources for IT transformation is limited we can suggest a step-by-step (or agile) implementation in the following order:
 - transaction processing system
 - user productivity system
+- a business support system
+
+The ERP system is not needed as there is no need for everyone to get access to all of the company data.
 
 ### 6. Goals
 _What is the goals of change New Century Wellness Group through information system development? Construct tree of goals._
