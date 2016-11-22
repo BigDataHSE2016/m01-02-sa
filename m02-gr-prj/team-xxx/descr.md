@@ -276,8 +276,6 @@ technology
 ### 9.
 _Prepare a context diagram for New Century's information system._
 
-![Diag1 img][diag1]
-
 <img src='http://g.gravizo.com/g?
 @startuml;
 node p as "Patient";
