@@ -1,7 +1,17 @@
 # Team Project - XXX
 The original assignment is [here](https://docs.google.com/document/d/13vUmeWuM2COGP6vKGhU66AC_evl0T1YajcbFQybSm5Q/edit).
 
-## The team project’ tasks description:
+### Legenda
+- _italic_ - task description
+
+### 0. Preface
+We have rethought the New Century Wellness Group in order to make it fit better into our Big Data Systems program.
+
+We've made the following suggestions:
+- New Century Wellness Group is still a small company but they want to scale and widen the range of their clients
+- The want to increase the level of their non-medical services
+- The want to suggest their customers a new service - support in workplace programs implementation
+
 ### 1. Business profile - general
 _Use the background information to create a business profile for New Century Wellness Group, and indicate areas where more information will be needed. The profile should include an organization chart of the office staff. You can create the chart using Microsoft Word or a similar program, or you can draw it by hand. In Word 2010, click the Insert tab on the Ribbon, then Smart Art, then Organization Chart_.
 
@@ -25,7 +35,13 @@ _Use the background information to create a business profile for New Century Wel
 
 **Number of customers**: 3500 patients,  275 employers
 
-**Mission**: New Century Health clinic was founded by two doctors Timothy Jones and Dolores Garcia who decided to combine their individual practices with a focus on preventive medicine by helping patients maintain health and fitness and by providing traditional medical care.
+**Mission**:
+- to promote and support programs that encourage the wellness of our clients' employees through education and initiatives that:
+  - Encourage habits of wellness
+  - Increase awareness of factors and resources contributing to well-being
+  - Inspire and empower individuals to take responsibility for their own health
+  - Support a sense of community
+-  to support the adoption of attitudes that contribute to positive well-being and providing information, activities and services designed to support healthy lifestyle choices.
 
 **Competitors**: The clinic has competition from other health care providers, but no other clinic offers the same range of services.
 
@@ -33,9 +49,12 @@ _Use the background information to create a business profile for New Century Wel
 
 <img src='http://g.gravizo.com/g?
 @startuml;
-usecase found as "Founders:;
+usecase dir as "Board:;
 --;
 Dr.Jones, Dr.Garcia";
+usecase found as "CEO:;
+--;
+Dr.Jones";
 usecase office as "Office manager:;
 --;
 Anita Davenport";
@@ -60,6 +79,7 @@ Lisa Sung";
 usecase suppl as "Office and medical\n supplies:;
 --;
 Carla Herrera";
+dir -down-> found;
 found -down-> office;
 office -down-> medrec;
 office -down-> hr;
@@ -96,135 +116,131 @@ I don't think any correction is needed. The chart above corresponds to the busin
 ### 3. Business Model Canvas
 _Form a business profile  of the  New Century. With use template of  Business model canvas try to construct it for case._  
 
-#### KEY PARTNERS
-##### Who are our Key Partners?
-##### Who are our key suppliers?
-##### Which Key Resources are we acquiring from partners?
-##### Which Key Activities do partners perform?
+#### Partners
+- IT company (support and outsourcing)
+- Other clinics/hospitals
+- Fire department
+- Police department
+- Local MD specialists
+- Ambulance service
+- Medical universities
+- Regulators&Government
 
-MOTIVATIONS FOR PARTNERSHIPS:
-- Optimization and economy
-- Reduction of risk and uncertainty
-- Acquisition of particular resources and activities
+#### Activities
+- Patient services
+- Patient intake
+- Logistics
+- HR
+- Marketing
+- b2b's customers employee services
+- b2b's customers services
 
-#### KEY ACTIVITIES
+#### Resources
+- Clinic staff
+- Medical equipment
+- Patient management systems
+- tech (IT) staff
 
-##### What Key Activities do our Value Propositions require?
-##### Our Distribution Channels?
-##### Customer Relationships?
-##### Revenue streams?
+#### Offerings
+- Patient facilities
+- Prevention services
+- Diagnosis
+- Wellness Communities building
+- Support programs promotion
 
-CATEGORIES
-- Production
-- Problem Solving
-- Platform/Network
+#### Benefits
+- Learning about their conditions
+- Emotional support in wellness
+- Family stability
+- Happiness and productivity levels growth in companies
 
-#### KEY RESOURCES
-##### What Key Resources do our Value Propositions require?
-##### Our Distribution Channels?
-##### Customer Relationships?
-##### Revenue Streams?
-
-TYPES OF RESOURCES:
-- Physical
-- Intellectual (brand patents, copyrights, data)
-- Human
-- Financial
-
-#### VALUE PROPOSITIONS
-##### What value do we deliver to the customer?
-##### Which one of our customer’s problems are we helping to solve?
-##### What bundles of products and services are we offering to each Customer Segment?
-##### Which customer needs are we satisfying?
-
-CHARACTERISTICS
-- Newness
-- Performance
-- Customization
-- "Getting the Job Done"
-- Design
-- Brand/Status
-- Price
-- Cost Reduction
-- Risk Reduction
-- Accessibility
-- Convenience/Usability
-
-#### CUSTOMER RELATIONSHIPS
-##### What type of relationship does each of our Customer Segments expect us to establish and maintain with them?
-##### Which ones have we established?
-##### How are they integrated with the rest of our business model?
-##### How costly are they?
-
-EXAMPLES:
+#### Customer Relationships
 - Personal assistance
 - Dedicated Personal Assistance
-- Self-Service
 - Automated Services
 - Communities
 - Co-creation
 
-#### CHANNELS
-##### Through which Channels do our Customer Segments want to be reached?
-##### How are we reaching them now?
-##### How are our Channels integrated?
-##### Which ones work best?
-##### Which ones are most cost-efficient?
-##### How are we integrating them with customer routines?
+#### Channels
+- Websites
+- Social media
+- Companies' Channels
+- Mobile applications
+- TV Commercials
 
-Channel phases:
-1. Awareness: How do we raise awareness about our company’s products and services?
-2. Evaluation: How do we help customers evaluate our organization’s Value Proposition?
-3. Purchase: How do we allow customers to purchase specific products and services?
-4. Delivery: How do we deliver a Value Proposition to customers?
-5. After sales: How do we provide post-purchase customer support?
+#### Cost structure
+- Salaries and trainings
+- Marketing/advertising
+- IT outsourcing
+- Claims fixes
+- Medical equipment
+- Clinic maintenance
 
-#### COST STRUCTURE
+#### Revenue streams
+- Usage fee
+- Subscription Fees
+- Non-profit tax benefits
+- Charging insurance for services
+- Fundation events
 
-##### What are the most important costs inherent in our business model?
-##### Which Key Resources are most expensive?
-##### Which Key Activities are most expensive?
-
-IS YOUR BUSINESS MORE
-- Cost Driven (leanest cost structure, low price value proposition, maximum automation, extensive outsourcing)
-- Value Driven ( focused on value creation, premium value proposition)
-
-SAMPLE CHARACTERISTICS
-Fixed Costs (salaries, rents, utilities)
-Variable costs
-Economies of scale
-Economies of scope
-
-#### REVENUE STREAMS
-
-##### For what value are our customers really willing to pay?
-##### For what do they currently pay?
-##### How are they currently paying?
-##### How would they prefer to pay?
-##### How much does each Revenue Stream contribute to overall revenues?
-
-TYPES
-Usage fee
-Subscription Fees
-Lending/Renting/Leasing
-Brokerage fees
-
-FIXED PRICING
-List Price
-Product feature dependent
-Customer segment dependent
-Volume dependent
-
-DYNAMIC PRICING
-Negotiation( bargaining)
-Yield Management
-Real-time-Market1
-
-
-### 4.
+### 4. Customers’ Model
 _Describe  customers’ model of New Century. Find additional material about customer modeling. On what firm' goals a customers loyalty influences ? Explain why this  plays important role in the studied case ? Also describe what data is required and what information is generated by each process._
 
-### 5.
+Based on the high number of patients served by New Century, it would be already beneficial to introduce customer segmentation. This approach, which has been used for many years in areas such as retail, would allow the company to better engage patients and the offered services could be more aligned with the needs of the patients such as personalized services and products. Through an successfull customer segmentation the following objectives could be achieved:
+
+* Improved profitability
+* Identified valuable customers
+* Better served high priority customers
+
+Moreover, a customer segmenation strategy can positively influence customer loyality, enhance customer satisfaction, and improve compatitive advantage of the company. However, it is essential to set up a suitable implementation strategy for the customer segmenation. Such a strategy could consists of the following development cycles:
+
+* Indetify business context
+* Customer segmentation
+* Planning and exection
+* Institutionalization
+
+**Identify business context**
+
+Firstly, the customer needs has to be identified. The output of this phase is a list of customer needs.
+
+**Customer segmentation**
+
+Based on the identified customer needs, meaningful and measurable unique, homogenous customer groups can be created. The customer segmentation is performed according to different criteria based on needs, behaviours and other traits of the patients.
+
+As an example, the organization of the could be done by the following characteristics:
+
+* Psychographics
+* Attitudes
+* Demographics (age, gender, income,...)
+* Values
+* Lifestyle
+
+Another approach could be done according to the lifestyle status:
+
+* New customer
+* Frequent customer
+* VIP customer
+* Nonactive customer
+
+Finally, another possibility would be based on value segments for frequent customers:
+
+* less than 100 dollars in last 3 months
+* more than 100 dollars in last 3 months
+* more than 500 dollars in last 3 months
+
+The output of this phase is a list of customer segments with defined, measurable characteristics.
+
+**Planning and execution**
+
+In this the customer segmentation supporting system is planned and set up and the patients are initially added into a particular customer segment.
+
+**Institutionalization**
+
+In this phase a long term perfomrance measurement of each segment is done. After the analysation of the results, the customer segments are adjusted. The customer segmentation should be updated on regular bases. Through this approach over time a market competition change.
+
+The introduction of the customer segmentation would be aligned with the company's strategic goals. Firstly, it would increase customer loyality. Secondly, it would attract new customers. Finally, this would result in a higher profitability.
+
+### 5. IT System Recommendations
 _Based on what you know at this point, is it likely that you will recommend a transaction processing system, a business support system, or a user productivity system? What about an ERP system? Explain your reasons._
 
 As it was mentioned in case study, the main goal of the new IT system implementation is to support the current clinic’s operations and future growth. The actual processes in the clinic are based on the paper documents and some legacy systems.
@@ -244,13 +260,92 @@ If the amount of resources for IT transformation is limited we can suggest a ste
 
 The ERP system is not needed as there is no need for everyone to get access to all of the company data.
 
+We can also suggest to outsource the IT support for marketing activities.
+
 ### 6. Goals
 _What is the goals of change New Century Wellness Group through information system development? Construct tree of goals._
 
 ![Goal tree img][goal-tree]
 
-### 7.
-_With use BSC template  try to determine  KPI ( for goals, for business activities)  , try to construct strategy map._
+### 7. Performance and Strategy
+_With use BSC template  try to determine  KPI (for goals, for business activities), try to construct strategy map._
+
+#### Critical Success Factors
+Based on the mission of the company we can determine the CSF<sup>1</sup>:
+- Clients' executives sponsorship and visible support
+- Embedded in organization’s strategic direction and frameworks
+- Measurement - baseline and ongoing
+- Program alignment with demographic profile, needs and interests of customers population
+- Effective marketing services to companies and individuals
+- Recruitment of experienced managerial talent
+- Clients accessibility
+- Dedication and hard work of the founders
+- Raising productivity
+- Lowering overall costs
+- Medical supplies quality
+- Medical supply deliverance accuracy
+
+#### KPI
+Thus the sample KPIs can be suggested:
+Title | Rationale | Target  |  Data Source(s)
+--- | --- | --- | ---
+1 | 2 | 3 | 4
+Amount of b2b clients | More companies trust the NCWG => better promotion of wellness | _ | Clients DB
+AVG % of b2b's employee involved in the program | The wellness community in the company size | _ | Customer surveys
+AVG % of returning  b2с customers | Wellness community quality | _ | Clients DB, customer surveys
+Accordance between demographic profile of the design client and a real client | The better we predict the client's profile the more relevant service can be suggested | Marketing service | Client records, surveys
+1 | 2 | 3 | 4
+
+#### The Performance Prism <sup>2</sup>
+
+![pp](https://github.com/BigDataHSE2016/m01-02-sa/blob/master/m02-gr-prj/team-xxx/perf-pr.png?raw=true)
+
+##### Stakeholder satisfaction
+Who are our stakeholders? | What do they want?
+--- | ---
+1 | 2
+Investors | a return on their investment in the form of capital gains, reward for loyalty in the form of dividends or interest
+Investors | accurate results and reports from the organisation
+Investors | faith in the management team
+Customers | ‘fast, right, cheap and easy’ + confidence + information accessibility
+Employees | interesting work, wish to be cared for by their employer, to learn transferable skills and to receive decent level of remuneration
+Suppliers | a relationship that allows them to be profitable, and enables their business to grow
+Suppliers | receive feedback on their performance
+Suppliers | want to be trusted
+Regulators | act legal, fair, safe and true
+
+##### Stakeholder contribution
+Stakeholder | What do we want and need from them?
+--- | ---
+1 | 2
+Investors | capital for growth
+Employees | skill growth, confidence in data, people-based culture
+Regulators |  lack of bureaucracy, confidence in data
+
+##### Strategies
+(what strategies do we need to put in place to satisfy the wants and needs of or our stakeholders while satisfying our own requirements too)
+- create a marketing department
+- develop a marketing plan
+- develop a promotional campaign framework for implementing into b2b clients' companies (using newsletters, signs, bulletin boards, computers, and other media available within the workplace)
+- develop a promotional campaign for attracting and maintaining b2c customers
+- proactive availability of information
+- promote superiority of core service
+
+
+##### Processes
+(what processes do we need to put in place to enable us to execute our strategies)
+- processes of gathering statistics about clients, suppliers and employee
+- customer service strategy
+- proactive traces
+- customer access tools
+
+##### Capabilities
+(what capabilities do we need to put in place to allow us to operate our processes?)
+- teamwork
+- technology
+- additional fundation/investments
+- marketing and IT professionals to join the teamwork
+- product offering
 
 ### 8. The Environment
 _Think about environment of New Century Wellness Group. List the external environment element._
@@ -271,9 +366,7 @@ External environment elements lst:
 - social and cultural changes that influence on the lifestyle, public opinion and fashion  trends
 technology
 
-
-
-### 9.
+### 9. Context Diagram
 _Prepare a context diagram for New Century's information system._
 
 <img src='http://g.gravizo.com/g?
@@ -297,16 +390,51 @@ oms -down-> gov : reports;
 @enduml
 '>
 
-### 10.
+### 10. 0 DFD Diagram
 _Prepare a diagram 0 DFD for New Century. Be sure to show numbered processes for handling appointment processing, payment and insurance processing, report processing, and records maintenance. Also, prepare lower-level DFDs for each numbered process._
 
-### 11.
+![0dfd img][0dfd-img]
+
+### 11. Data Stores and Data Flows
 _Prepare a list of data stores and data flows needed for the system. Under each data store, list the data elements required._
 
-### 12.
+Data stores:
+- Patient medical history. Data elements required:
+  - Patient ID
+  - Patient Name
+  - Patient age  
+  - Patient health records
+  - Patient surgeries
+  - Patient medicine taken at current time
+
+Data flows:
+- Gives information
+- Opens new file Update   
+- Submit information
+- Update medical history
+- Make payments
+- Accept/reject claims
+- Payment clain  
+- Process payment
+- Recept  
+
+### 12. Data Dictionary
 _Prepare a data dictionary entry and process description for one of the system's functional primitives._
 
+Clinical Data System | Data process description
+--- | ---
+1 | 2
+System | Medical history
+Name | Generate information process
+Purpose | Submit new information about the clients, update the patients medical history's data store and generate the payments
+Input data flows | Submit information about the clients   
+Output flows | Update the medical history and the amount of payments
 ----
+
+**Footnotes:**
+
+1. See Critical success factors (ACCA) in [1](http://www.accaglobal.com/ng/en/student/exam-support-resources/professional-exams-study-resources/p3/technical-articles/critical-success-factors.html)
+2. The Performance Prism (ACCA) in [2](http://www.accaglobal.com/caribbean/en/student/exam-support-resources/professional-exams-study-resources/p5/technical-articles/performance-prism.html)
 
 [goal-tree]:
 https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/goal_tree.png
@@ -314,3 +442,9 @@ https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/goal_
 [swot-img]: https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/swot.png
 
 [diag1]: https://github.com/BigDataHSE2016/m01-02-sa/raw/master/m02-gr-prj/team-xxx/diag1.png
+
+[0dfd-img]:
+https://github.com/BigDataHSE2016/m01-02-sa/blob/master/m02-gr-prj/team-xxx/0dfd.png?raw=true
+
+[pp-img]:
+https://github.com/BigDataHSE2016/m01-02-sa/blob/master/m02-gr-prj/team-xxx/perf-pr.png?raw=true
