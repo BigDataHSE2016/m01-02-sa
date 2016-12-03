@@ -101,7 +101,6 @@ _Identify six business processes that New Century performs, and explain who has 
 
  Name | Who's responsible | Data required  |  Data generated
 --- | --- | --- | ---
-1 | 2 | 3 | 4
 Medical supplies ordering	| Carla Herrera |	Inventory lists, supplies usage records, suppliers info	| Updated inventory lists, supplies orders and bills
 Patient intake |	Lisa Sung	| Doctor availability and patients personal and financial data |	Patients and insurance records; doctors' schedule
 Insurance billing	| Tammy Alipio |	Patients personal and financial data, insurance contracts |	Bills sent to insurance companies and patients
@@ -245,6 +244,11 @@ _Based on what you know at this point, is it likely that you will recommend a tr
 
 As it was mentioned in case study, the main goal of the new IT system implementation is to support the current clinic’s operations and future growth. The actual processes in the clinic are based on the paper documents and some legacy systems.
 
+The main recommendation is to focus on the marketing strategies that will allow to make a client vortex for the companies that want to make a "boxed" service of workplace wellness and prevention medicine.
+As they seem to be not very experienced with IT and marketing we'd recommend:
+- hire 1-2 experienced marketing professionals who will develop the marketing strategies and make them outsource most of the low-level work in this sphere.  
+- the same thing can be done with IT. We can suggest to outsource the IT support for the clinic's IT systems (see below) and IT support for marketing activities. 1 or 2 IT specialists (or managers) should be hired to coordinate all the outsourced work and make the IT starategy.
+
 As we can see in the business processes table above, some processes require the same income data and some of them depend on the data produced by other processes. So reducing the paper flow can cause a significant speed-up in data flows and the rise of efficiency of the processes.
 
 We don’t think that implementing only one of suggested systems is enough for any business.
@@ -259,8 +263,6 @@ If the amount of resources for IT transformation is limited we can suggest a ste
 - a business support system
 
 The ERP system is not needed as there is no need for everyone to get access to all of the company data.
-
-We can also suggest to outsource the IT support for marketing activities.
 
 ### 6. Goals
 _What is the goals of change New Century Wellness Group through information system development? Construct tree of goals._
@@ -289,12 +291,10 @@ Based on the mission of the company we can determine the CSF<sup>1</sup>:
 Thus the sample KPIs can be suggested:
 Title | Rationale | Target  |  Data Source(s)
 --- | --- | --- | ---
-1 | 2 | 3 | 4
 Amount of b2b clients | More companies trust the NCWG => better promotion of wellness | _ | Clients DB
 AVG % of b2b's employee involved in the program | The wellness community in the company size | _ | Customer surveys
 AVG % of returning  b2с customers | Wellness community quality | _ | Clients DB, customer surveys
 Accordance between demographic profile of the design client and a real client | The better we predict the client's profile the more relevant service can be suggested | Marketing service | Client records, surveys
-1 | 2 | 3 | 4
 
 #### The Performance Prism <sup>2</sup>
 
@@ -303,7 +303,6 @@ Accordance between demographic profile of the design client and a real client | 
 ##### Stakeholder satisfaction
 Who are our stakeholders? | What do they want?
 --- | ---
-1 | 2
 Investors | a return on their investment in the form of capital gains, reward for loyalty in the form of dividends or interest
 Investors | accurate results and reports from the organisation
 Investors | faith in the management team
@@ -317,7 +316,6 @@ Regulators | act legal, fair, safe and true
 ##### Stakeholder contribution
 Stakeholder | What do we want and need from them?
 --- | ---
-1 | 2
 Investors | capital for growth
 Employees | skill growth, confidence in data, people-based culture
 Regulators |  lack of bureaucracy, confidence in data
@@ -423,7 +421,6 @@ _Prepare a data dictionary entry and process description for one of the system's
 
 Clinical Data System | Data process description
 --- | ---
-1 | 2
 System | Medical history
 Name | Generate information process
 Purpose | Submit new information about the clients, update the patients medical history's data store and generate the payments
